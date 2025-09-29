@@ -1,2 +1,3 @@
-# vero-glitter
-vero glitter e-commers web app React 
+# Vero Glitter
+
+Vero Glitter is a modern e-commerce web application built with Vue.js, designed for selling a wide variety of glitter products. The platform offers a seamless shopping experience, featuring intuitive navigation, product filtering, secure checkout, and responsive design. Customers can browse glitter collections, view detailed product information, and easily manage their orders. Vero Glitter is optimized for performance and scalability, making it suitable for both small shops and growing businesses.
