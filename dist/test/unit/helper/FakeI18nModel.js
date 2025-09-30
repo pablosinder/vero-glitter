@@ -1,2 +1,0 @@
-sap.ui.define(["sap/ui/model/Model","sap/base/strings/formatMessage"],(e,t)=>{"use strict";return e.extend("test.unit.helper.FakeI18nModel",{constructor:function(t){e.call(this);this.mTexts=t||{}},getResourceBundle(){return{getText:(e,s)=>t(this.mTexts[e],s)}}})});
-//# sourceMappingURL=FakeI18nModel.js.map

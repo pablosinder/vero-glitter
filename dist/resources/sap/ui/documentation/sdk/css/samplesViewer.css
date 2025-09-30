@@ -1,8 +1,0 @@
-/* make room for the RTA toolbar during editing */
-body.sapUiRtaMode {
-	padding-top: 48px; /* Standard RTA toolbar height */
-}
-
-#content {
-	height:100%;
-}

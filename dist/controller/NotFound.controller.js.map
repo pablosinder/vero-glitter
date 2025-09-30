@@ -1,1 +1,0 @@
-{"version":3,"file":"NotFound.controller.js","names":["sap","ui","define","BaseController","UIComponent","extend","onInit","this","_router","getRouterFor"],"sources":["NotFound-dbg.controller.js"],"mappings":"AAAAA,IAAIC,GAAGC,OAAO,CACb,mBACA,2BACE,CAACC,EAAgBC,KACnB,aAEA,OAAOD,EAAeE,OAAO,uCAAwC,CACpE,MAAAC,GACCC,KAAKC,QAAUJ,EAAYK,aAAaF,KACzC","ignoreList":[]}

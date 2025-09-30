@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
+	<head>
+		<meta http-equiv="Cache-control" content="no-cache, no-store, must-revalidate" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="expires" content="0" />
+		<meta charset="utf-8" />
 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>UI5 Application: com.veroglitter</title>
 
-	<title>Shopping Cart</title>
+		<script
+			id="sap-ui-bootstrap"
+			src="resources/sap-ui-core.js"
+			data-sap-ui-resource-roots='{
+				"com.veroglitter": "./"
+			}'
+			data-sap-ui-on-init="module:sap/ui/core/ComponentSupport"
+			data-sap-ui-compat-version="edge"
+			data-sap-ui-frame-options="trusted"
+			data-sap-ui-async="true"
+		></script>
+	</head>
 
-	<!-- keep index.html mocked as well for consistency -->
-	<script
-		id='sap-ui-bootstrap'
-		src='../../../../../../resources/sap-ui-core.js'
-		data-sap-ui-theme='sap_horizon'
-		data-sap-ui-compatVersion="edge"
-		data-sap-ui-async="true"
-		data-sap-ui-oninit="module:sap/ui/demo/cart/initMockServer"
-		data-sap-ui-resourceroots='{
-			"sap.ui.demo.cart" : "./",
-			"sap.ui.demo.mock": "./localService/mockdata"
-		}'>
-	</script>
-
-</head>
-<body class='sapUiBody' id='content'>
-	<div data-sap-ui-component data-name="sap.ui.demo.cart" data-id="container" data-settings='{"id" : "cart"}'></div>
-</body>
+	<body class="sapUiBody">
+		<div data-sap-ui-component data-name="com.veroglitter"></div>
+	</body>
 </html>

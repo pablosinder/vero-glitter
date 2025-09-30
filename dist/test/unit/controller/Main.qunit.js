@@ -1,0 +1,2 @@
+sap.ui.define(["com/veroglitter/controller/Main.controller"],function(t){"use strict";QUnit.module("Sample Main controller test");QUnit.test("The MainController class has a sayHello method",function(o){o.strictEqual(typeof t.prototype.sayHello,"function")})});
+//# sourceMappingURL=Main.qunit.js.map

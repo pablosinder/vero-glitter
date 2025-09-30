@@ -1,2 +1,0 @@
-sap.ui.define(["./BaseController"],t=>{"use strict";return t.extend("sap.ui.demo.cart.controller.OrderCompleted",{onInit(){this._oRouter=this.getRouter()},onReturnToShopButtonPress(){this._setLayout("Two");this._oRouter.navTo("home")}})});
-//# sourceMappingURL=OrderCompleted.controller.js.map

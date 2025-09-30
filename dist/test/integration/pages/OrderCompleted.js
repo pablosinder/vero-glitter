@@ -1,2 +1,0 @@
-sap.ui.define(["sap/ui/test/Opa5","sap/ui/test/actions/Press"],(e,t)=>{"use strict";e.createPageObjects({onOrderCompleted:{viewName:"OrderCompleted",actions:{iPressOnTheReturnToShopButton(){return this.waitFor({id:"returnToShopButton",actions:new t})}},assertions:{iShouldSeeTheOrderCompletedPage(){return this.waitFor({id:"returnToShopButton",success(t){e.assert.ok(t,"Found the order completed page")}})}}}})});
-//# sourceMappingURL=OrderCompleted.js.map

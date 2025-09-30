@@ -1,2 +1,0 @@
-sap.ui.define(["sap/ui/demo/cart/localService/mockserver"],e=>{"use strict";e.init().catch(e=>{sap.ui.require(["sap/m/MessageBox"],r=>r.error(e.message))}).finally(()=>{sap.ui.require(["sap/ui/core/ComponentSupport"])})});
-//# sourceMappingURL=initMockServer.js.map

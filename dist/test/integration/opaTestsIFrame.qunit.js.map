@@ -1,1 +1,0 @@
-{"version":3,"file":"opaTestsIFrame.qunit.js","names":["sap","ui","define","Opa5","Startup","extendConfig","arrangements","viewNamespace","autoWait"],"sources":["opaTestsIFrame.qunit-dbg.js"],"mappings":"AAAAA,IAAIC,GAAGC,OAAO,CACb,mBACA,gCACA,mBACA,sBACA,yBACA,sBACA,kBACA,uBACE,CAACC,EAAMC,KACT,aAEAD,EAAKE,aAAa,CACjBC,aAAc,IAAIF,EAClBG,cAAe,yBACfC,SAAU","ignoreList":[]}
