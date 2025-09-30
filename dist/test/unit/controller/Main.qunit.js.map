@@ -1,1 +1,0 @@
-{"version":3,"file":"Main.qunit.js","names":["sap","ui","define","MainController","QUnit","module","test","assert","strictEqual","prototype","sayHello"],"sources":["Main.qunit-dbg.js"],"mappings":"AACAA,IAAIC,GAAGC,OAAO,CAAC,8CAA+C,SAAUC,GACvE,aAEAC,MAAMC,OAAO,+BAEbD,MAAME,KAAK,iDAAkD,SAAUC,GAEtEA,EAAOC,mBAAmBL,EAAeM,UAAUC,SAAU,WAC9D,EACD","ignoreList":[]}
