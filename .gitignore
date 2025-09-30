@@ -1,4 +1,5 @@
 # build results
+dist
 coverage
 .nyc_output
 report
