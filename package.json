@@ -39,6 +39,6 @@
 	"dependencies": {
 		"@sap-ux/project-access": "^1.29.12",
 		"@sap-ux/ui5-proxy-middleware": "^1.4.16",
-		"axios": "^1.8.1"
+		"axios": "^1.12.2"
 	}
 }
