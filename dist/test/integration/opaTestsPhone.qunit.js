@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/test/Opa5","./arrangements/component/Startup","./PhoneNavigationJourney"],(e,a)=>{"use strict";e.extendConfig({arrangements:new a,viewNamespace:"sap.ui.demo.cart.view.",autoWait:true})});
+//# sourceMappingURL=opaTestsPhone.qunit.js.map
