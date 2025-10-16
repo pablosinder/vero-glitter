@@ -2,13 +2,17 @@
 	"_version": "1.12.0",
 
 	"sap.app": {
-		"id": "org.myui5app",
+		"id": "com.veroglitter",
 		"type": "application",
 		"i18n": "i18n/i18n.properties",
 		"title": "{{appTitle}}",
 		"description": "{{appDescription}}",
 		"applicationVersion": {
 			"version": "${version}"
+		},
+		"sourceTemplate": {
+			"id": "generator-ui5-app",
+			"version": "1.1.0"
 		}
 	},
 
@@ -24,14 +28,13 @@
 
 	"sap.ui5": {
 		"rootView": {
-			"viewName": "org.myui5app.view.App",
+			"viewName": "com.veroglitter.view.App",
 			"type": "XML",
-			"async": true,
 			"id": "app"
 		},
 
 		"dependencies": {
-			"minUI5Version": "1.133.0",
+			"minUI5Version": "1.140.0",
 			"libs": {
 				"sap.ui.core": {},
 				"sap.m": {}
@@ -49,7 +52,10 @@
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
 				"settings": {
-					"bundleName": "org.myui5app.i18n.i18n"
+					"bundleName": "com.veroglitter.i18n.i18n",
+					"supportedLocales": ["en", "de"],
+					"fallbackLocale": "en",
+					"async": true
 				}
 			}
 		},
@@ -58,10 +64,9 @@
 			"config": {
 				"routerClass": "sap.m.routing.Router",
 				"viewType": "XML",
-				"viewPath": "org.myui5app.view",
+				"viewPath": "com.veroglitter.view",
 				"controlId": "app",
-				"controlAggregation": "pages",
-				"async": true
+				"controlAggregation": "pages"
 			},
 			"routes": [
 				{

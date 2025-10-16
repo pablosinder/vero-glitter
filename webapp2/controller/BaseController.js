@@ -1,15 +1,7 @@
 sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/core/UIComponent", "sap/ui/core/routing/History"], function (Controller, UIComponent, History) {
 	"use strict";
 
-	return Controller.extend("org.myui5app.controller.BaseController", {
-		/**
-		 * Convenience method for accessing the component of the controller's view.
-		 * @returns {sap.ui.core.Component} The component of the controller's view
-		 */
-		getOwnerComponent: function () {
-			return Controller.prototype.getOwnerComponent.call(this);
-		},
-
+	return Controller.extend("com.veroglitter.controller.BaseController", {
 		/**
 		 * Convenience method to get the components' router instance.
 		 * @returns {sap.m.routing.Router} The router instance
@@ -20,7 +12,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/core/UIComponent", "sap/ui/
 
 		/**
 		 * Convenience method for getting the i18n resource bundle of the component.
-		 * @returns {sap.base.i18n.ResourceBundle} The i18n resource bundle of the component
+		 * @returns {Promise<sap.base.i18n.ResourceBundle>} The i18n resource bundle of the component
 		 */
 		getResourceBundle: function () {
 			const oModel = this.getOwnerComponent().getModel("i18n");
