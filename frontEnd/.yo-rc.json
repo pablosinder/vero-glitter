@@ -2,7 +2,7 @@
   "generator-ui5-app": {
     "namespace": "com.veroglitter",
     "framework": "OpenUI5",
-    "frameworkVersion": "1.140.0",
+    "frameworkVersion": "1.141.1",
     "author": "pablosinder",
     "initrepo": false,
     "appId": "com.veroglitter",

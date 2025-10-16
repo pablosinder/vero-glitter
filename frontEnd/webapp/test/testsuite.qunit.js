@@ -1,58 +1,36 @@
-sap.ui.define(() => {
+sap.ui.define(function () {
 	"use strict";
 
 	return {
-		name: "QUnit test suite for Shopping Cart",
+		name: "QUnit test suite for the UI5 Application: com.veroglitter",
 		defaults: {
 			page: "ui5://test-resources/com/veroglitter/Test.qunit.html?testsuite={suite}&test={name}",
-			qunit : {
-				versions : {
-					"2.18" : {
-						module : "test-resources/sap/ui/core/qunit/thirdparty/qunit-2.18",
-						css : "test-resources/sap/ui/core/qunit/thirdparty/qunit-2.18.css"
-					}
-				},
-				version : "2.18"
+			qunit: {
+				version: 2
 			},
-			sinon : {
-				versions : {
-					"14.0" : {
-						module : "test-resources/sap/ui/core/qunit/thirdparty/sinon-14.0",
-						bridge : "sap/ui/qunit/sinon-qunit-bridge"
-					}
-				},
-				version : "14.0"
+			sinon: {
+				version: 1
 			},
 			ui5: {
-				language: "en",
+				language: "EN",
 				theme: "sap_horizon"
+			},
+			coverage: {
+				only: "com/veroglitter/",
+				never: "test-resources/com/veroglitter/"
 			},
 			loader: {
 				paths: {
-					"com/veroglitter": "../",
-					"com/veroglitter/mock": "./../localService/mockdata"
+					"com/veroglitter": "../"
 				}
 			}
 		},
 		tests: {
 			"unit/unitTests": {
-				title: "Unit tests for Shopping Cart"
+				title: "Unit tests for com.veroglitter"
 			},
-			"integration/opaTestsPhone": {
-				title: "Opa tests for cart on phone",
-				skip: true
-			},
-			"integration/opaTestsComponent": {
-				title: "Opa tests for Shopping Cart Journeys with Component"
-			},
-			"integration/opaTestsIFrame": {
-				title: "Integration tests for Shopping Cart Journeys with IFrame"
-			},
-			"integration/opaTestsGherkinComponent": {
-				title: "Opa tests for Shopping Cart written in Gherkin using a Component"
-			},
-			"integration/opaTestsGherkinIFrame": {
-				title: "Opa tests for Shopping Cart written in Gherkin"
+			"integration/opaTests": {
+				title: "Integration tests for com.veroglitter"
 			}
 		}
 	};
