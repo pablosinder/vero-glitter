@@ -8,7 +8,7 @@ sap.ui.define(["sap/ui/test/opaQunit", "./pages/Main"], function (opaTest) {
 		// Arrangements
 		Given.iStartMyUIComponent({
 			componentConfig: {
-				name: "com.veroglitter"
+				name: "org.myui5app"
 			}
 		});
 
@@ -32,7 +32,7 @@ sap.ui.define(["sap/ui/test/opaQunit", "./pages/Main"], function (opaTest) {
 		// Arrangements
 		Given.iStartMyUIComponent({
 			componentConfig: {
-				name: "com.veroglitter"
+				name: "org.myui5app"
 			}
 		});
 

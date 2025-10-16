@@ -1,10 +1,9 @@
 sap.ui.define(["sap/ui/core/UIComponent", "sap/ui/Device", "./model/models"], function (UIComponent, Device, models) {
 	"use strict";
 
-	return UIComponent.extend("com.veroglitter.Component", {
+	return UIComponent.extend("org.myui5app.Component", {
 		metadata: {
-			manifest: "json",
-			interfaces: ["sap.ui.core.IAsyncContentCreation"]
+			manifest: "json"
 		},
 		init: function () {
 			// call the base component's init function
