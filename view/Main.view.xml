@@ -7,10 +7,9 @@
 	core:require="{
 		formatter: 'com/veroglitter/model/formatter'
 	}">
-
 	<Page
 		title="{i18n>appTitle}"
-		id="page">
+		id="mainPage">
 		<content>
 			<VBox >
 				<Text text="test"/>
