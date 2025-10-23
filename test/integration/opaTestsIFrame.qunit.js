@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/test/Opa5","./arrangements/iframe/Startup","./WelcomeJourney","./NavigationJourney","./DeleteProductJourney","./BuyProductJourney","./FilterJourney","./ComparisonJourney"],(e,r)=>{"use strict";e.extendConfig({arrangements:new r,viewNamespace:"com.veroglitter.view.",autoWait:true})});
+//# sourceMappingURL=opaTestsIFrame.qunit.js.map

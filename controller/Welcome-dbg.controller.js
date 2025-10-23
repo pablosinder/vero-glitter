@@ -23,22 +23,22 @@ sap.ui.define([
 
 		onInit() {
 			const oViewModel = new JSONModel({
-				welcomeCarouselShipping: 'com.veroglitter/img/Shipping_273087.jpg',
-				welcomeCarouselInviteFriend: 'com.veroglitter/img/InviteFriend_276352.jpg',
-				welcomeCarouselTablet: 'com.veroglitter/img/Tablet_275777.jpg',
-				welcomeCarouselCreditCard: 'com.veroglitter/img/CreditCard_277268.jpg',
+				welcomeCarouselShipping: 'com/veroglitter/img/home5.jpg',
+				welcomeCarouselInviteFriend: 'com/veroglitter/img/home2.jpg',
+				welcomeCarouselTablet: 'com/veroglitter/img/home3.jpg',
+				welcomeCarouselCreditCard: 'com/veroglitter/img/home4.jpg',
 				Promoted: [],
 				Viewed: [],
 				Favorite: [],
 				Currency: "EUR"
 			});
 			this.getView().setModel(oViewModel, "view");
-			// this.getRouter().attachRouteMatched(this._onRouteMatched, this);
+			this.getRouter().attachRouteMatched(this._onRouteMatched, this);
 
-			// // select random carousel page at start
-			// const oWelcomeCarousel = this.byId("welcomeCarousel");
-			// const iRandomIndex = Math.floor(Math.abs(Math.random()) * oWelcomeCarousel.getPages().length);
-			// oWelcomeCarousel.setActivePage(oWelcomeCarousel.getPages()[iRandomIndex]);
+			// select random carousel page at start
+			const oWelcomeCarousel = this.byId("welcomeCarousel");
+			const iRandomIndex = Math.floor(Math.abs(Math.random()) * oWelcomeCarousel.getPages().length);
+			oWelcomeCarousel.setActivePage(oWelcomeCarousel.getPages()[iRandomIndex]);
 		},
 
 		/**

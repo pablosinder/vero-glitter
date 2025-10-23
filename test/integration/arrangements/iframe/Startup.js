@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/test/Opa5","sap/ui/util/Storage"],(e,a)=>{"use strict";return e.extend("com.veroglitter.test.integration.arrangements.iframe.Startup",{iStartMyApp(e){const t=e||{};if(!t.keepStorage){const e=new a(a.Type.local);e.remove("SHOPPING_CART")}t.delay=t.delay||1;return this.iStartMyAppInAFrame("../index.html?sap-ui-language=en-US"+"&sap-ui-animation=false&serverDelay="+t.delay+(t.hash?"#/"+t.hash:""))}})});
+//# sourceMappingURL=Startup.js.map

@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/test/Opa5","./arrangements/component/Startup","./PhoneNavigationJourney"],(e,t)=>{"use strict";e.extendConfig({arrangements:new t,viewNamespace:"com.veroglitter.view.",autoWait:true})});
+//# sourceMappingURL=opaTestsPhone.qunit.js.map

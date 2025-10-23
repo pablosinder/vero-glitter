@@ -1,0 +1,2 @@
+sap.ui.define(["./BaseController","sap/ui/core/UIComponent"],(e,t)=>{"use strict";return e.extend("com.veroglitter.controller.NotFound",{onInit(){this._router=t.getRouterFor(this)}})});
+//# sourceMappingURL=NotFound.controller.js.map

@@ -1,0 +1,2 @@
+sap.ui.define(["./BaseController"],t=>{"use strict";return t.extend("com.veroglitter.controller.OrderCompleted",{onInit(){this._oRouter=this.getRouter()},onReturnToShopButtonPress(){this._setLayout("Two");this._oRouter.navTo("home")}})});
+//# sourceMappingURL=OrderCompleted.controller.js.map

@@ -1,0 +1,22 @@
+[
+  { "ProductId": "GL-1001", "Type": "Promoted" },
+  { "ProductId": "GL-1002", "Type": "Viewed" },
+  { "ProductId": "GL-1003", "Type": "Promoted" },
+  { "ProductId": "GL-1004", "Type": "Favorite" },
+  { "ProductId": "GL-1005", "Type": "Promoted" },
+  { "ProductId": "GL-1006", "Type": "Viewed" },
+  { "ProductId": "GL-1007", "Type": "Promoted" },
+  { "ProductId": "GL-1008", "Type": "Favorite" },
+  { "ProductId": "GL-1009", "Type": "Promoted" },
+  { "ProductId": "GL-1010", "Type": "Viewed" },
+  { "ProductId": "GL-1011", "Type": "Promoted" },
+  { "ProductId": "GL-1012", "Type": "Favorite" },
+  { "ProductId": "GL-1013", "Type": "Promoted" },
+  { "ProductId": "GL-1014", "Type": "Viewed" },
+  { "ProductId": "GL-1015", "Type": "Promoted" },
+  { "ProductId": "GL-1016", "Type": "Favorite" },
+  { "ProductId": "GL-1017", "Type": "Promoted" },
+  { "ProductId": "GL-1018", "Type": "Viewed" },
+  { "ProductId": "GL-1019", "Type": "Promoted" },
+  { "ProductId": "GL-1020", "Type": "Favorite" }
+]

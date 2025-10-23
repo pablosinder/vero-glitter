@@ -1,5 +1,5 @@
 {
-	"_version": "1.12.0",
+	"_version": "1.21.0",
 	"sap.app": {
 		"id": "com.veroglitter",
 		"type": "application",
@@ -16,29 +16,32 @@
 			"version": "1.0.0"
 		},
 		"resources": "resources.json",
-		"dataSources": {}
+		"dataSources": {
+			"mainService": {
+				"uri": "/sap/opu/odata/IWBEP/EPM_DEVELOPER_SCENARIO_SRV/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/metadata.xml"
+				}
+			}
+		}
 	},
 	"sap.ui": {
 		"technology": "UI5",
 		"icons": {
 			"icon": "sap-icon://cart",
 			"favIcon": "img/favicon.ico"
-		},
-		"deviceTypes": {
-			"desktop": true,
-			"tablet": true,
-			"phone": true
 		}
 	},
 	"sap.ui5": {
-		"flexEnabled": false,
 		"rootView": {
 			"viewName": "com.veroglitter.view.App",
 			"type": "XML",
 			"id": "app"
 		},
 		"dependencies": {
-			"minUI5Version": "1.141.2",
+			"minUI5Version": "1.98.0",
 			"libs": {
 				"sap.f": {},
 				"sap.m": {},
@@ -57,11 +60,14 @@
 					"async": true,
 					"bundleName": "com.veroglitter.i18n.i18n",
 					"supportedLocales": [
-						"en",
-						"de"
+						""
 					],
-					"fallbackLocale": "en"
+					"fallbackLocale": ""
 				}
+			},
+			"": {
+				"dataSource": "mainService",
+				"preload": true
 			}
 		},
 		"handleValidation": true,

@@ -6,7 +6,7 @@
 	xmlns:core="sap.ui.core"
 	core:require="{CurrencyType: 'sap/ui/model/type/Currency'}">
 	<Page
-		id="weolcomePageId">
+		id="welcomePage">
 		<landmarkInfo>
 			<PageAccessibleLandmarkInfo
 				rootRole="Region"
@@ -63,7 +63,8 @@
 											formatter : '.formatter.pictureUrl'
 											}"
 										width="100%"
-										height="100%"/>
+										height="100%"
+										class="imgSize"/>
 									<Text
 										text="{i18n>welcomeCarouselShipping}"
 										class="welcomeCarouselText"/>
@@ -75,7 +76,8 @@
 											formatter : '.formatter.pictureUrl'
 										}"
 										width="100%"
-										height="100%"/>
+										height="100%"
+										class="imgSize"/>
 									<Text
 										text="{i18n>welcomeCarouselInviteFriend}"
 										class="welcomeCarouselText"/>
@@ -87,7 +89,8 @@
 											formatter : '.formatter.pictureUrl'
 											}"
 										width="100%"
-										height="100%"/>
+										height="100%"
+										class="imgSize"/>
 									<Text
 										text="{i18n>welcomeCarouselTablet}"
 										class="welcomeCarouselText"/>
@@ -99,7 +102,8 @@
 											formatter : '.formatter.pictureUrl'
 											}"
 										width="100%"
-										height="100%"/>
+										height="100%"
+										class="imgSize"/>
 									<Text
 										text="{i18n>welcomeCarouselCreditCard}"
 										class="welcomeCarouselText"/>
@@ -162,8 +166,9 @@
 												formatter : '.formatter.pictureUrl'
 											}"
 											densityAware="false"
-											width="50%"
-											height="50%"
+											width="100%"
+											height="100%"
+											class="imgSize"
 											press=".onSelectProduct"
 											tooltip="{i18n>openProductDetails} {view>Product/Name}"
 											alt="{i18n>alternativeImageText} {view>Product/Name}"/>
@@ -252,6 +257,7 @@
 											}"
 											width="100%"
 											height="100%"
+											class="imgSize"
 											press=".onSelectProduct"
 											tooltip="{i18n>openProductDetails} {view>Product/Name}"
 											alt="{i18n>alternativeImageText} {view>Product/Name}"/>
@@ -340,6 +346,7 @@
 											}"
 											width="100%"
 											height="100%"
+											class="imgSize"
 											press=".onSelectProduct"
 											tooltip="{i18n>openProductDetails} {view>Product/Name}"
 											alt="{i18n>alternativeImageText} {view>Product/Name}"/>

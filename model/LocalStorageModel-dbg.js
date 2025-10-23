@@ -4,7 +4,7 @@ sap.ui.define([
 ], (JSONModel, Storage) => {
 	"use strict";
 
-	return JSONModel.extend("sap.ui.demo.cart.model.CartModel", {
+	return JSONModel.extend("com.veroglitter.model.CartModel", {
 		_STORAGE_KEY: "LOCALSTORAGE_MODEL",
 
 		_storage: new Storage(Storage.Type.local),
@@ -15,7 +15,7 @@ sap.ui.define([
 		 * to avoid name clashes with other apps or other instances of this model class.
 		 * @param {string} sStorageKey storage key that will be used as an id for the local storage data
 		 * @param {Object} oSettings settings objec that is passed to the JSON model constructor
-		 * @returns {sap.ui.demo.cart.model.LocalStorageModel} the local storage model instance
+		 * @returns {com.veroglitter.model.LocalStorageModel} the local storage model instance
 		 */
 		constructor: function(sStorageKey, oSettings) {
 			// call super constructor with everything from the second argument

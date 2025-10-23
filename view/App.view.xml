@@ -4,8 +4,9 @@
 	xmlns="sap.m"
 	xmlns:f="sap.f"
 	xmlns:mvc="sap.ui.core.mvc">
-
-	<App id="app" class="sapUiDemoCart">
+	<App
+		id="app"
+		class="sapUiDemoCart">
 		<f:FlexibleColumnLayout
 			id="layout"
 			busy="{appView>/busy}"
@@ -16,5 +17,4 @@
 			stateChange=".onStateChange">
 		</f:FlexibleColumnLayout>
 	</App>
-
 </mvc:View>

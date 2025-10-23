@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/test/Opa5","./arrangements/component/Startup","./WelcomeJourney","./NavigationJourney","./DeleteProductJourney","./BuyProductJourney","./FilterJourney","./ComparisonJourney"],(e,t)=>{"use strict";e.extendConfig({arrangements:new t,viewNamespace:"com.veroglitter.view.",autoWait:true})});
+//# sourceMappingURL=opaTestsComponent.qunit.js.map
