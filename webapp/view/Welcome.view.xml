@@ -1,12 +1,12 @@
 <mvc:View
-	controllerName="com.veroglitter.controller.Welcome"
+	controllerName="sap.ui.demo.cart.controller.Welcome"
 	xmlns="sap.m"
 	xmlns:l="sap.ui.layout"
 	xmlns:mvc="sap.ui.core.mvc"
 	xmlns:core="sap.ui.core"
 	core:require="{CurrencyType: 'sap/ui/model/type/Currency'}">
 	<Page
-		id="weolcomePageId">
+		id="welcomePage">
 		<landmarkInfo>
 			<PageAccessibleLandmarkInfo
 				rootRole="Region"
@@ -62,8 +62,8 @@
 											path: 'view>/welcomeCarouselShipping',
 											formatter : '.formatter.pictureUrl'
 											}"
-										width="100%"
-										height="100%"/>
+										width="50%"
+										height="50%"/>
 									<Text
 										text="{i18n>welcomeCarouselShipping}"
 										class="welcomeCarouselText"/>
@@ -74,8 +74,8 @@
 											path: 'view>/welcomeCarouselInviteFriend',
 											formatter : '.formatter.pictureUrl'
 										}"
-										width="100%"
-										height="100%"/>
+										width="50%"
+										height="50%"/>
 									<Text
 										text="{i18n>welcomeCarouselInviteFriend}"
 										class="welcomeCarouselText"/>
@@ -86,8 +86,8 @@
 											path: 'view>/welcomeCarouselTablet',
 											formatter : '.formatter.pictureUrl'
 											}"
-										width="100%"
-										height="100%"/>
+										width="50%"
+										height="50%"/>
 									<Text
 										text="{i18n>welcomeCarouselTablet}"
 										class="welcomeCarouselText"/>
@@ -98,8 +98,8 @@
 											path: 'view>/welcomeCarouselCreditCard',
 											formatter : '.formatter.pictureUrl'
 											}"
-										width="100%"
-										height="100%"/>
+										width="50%"
+										height="50%"/>
 									<Text
 										text="{i18n>welcomeCarouselCreditCard}"
 										class="welcomeCarouselText"/>

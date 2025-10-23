@@ -6,12 +6,12 @@ sap.ui.define([
 	"use strict";
 
 	const oResourceModel = new ResourceModel({
-		bundleName: "sap.ui.demo.cart.i18n.i18n"
+		bundleName: "com.veroglitter.i18n.i18n"
 	});
 	// The following Regex is NOT covering all cases of RFC 5322 and only used for demonstration purposes.
 	const rEMail = /^\w+[\w-+\.]*\@\w+([-\.]\w+)*\.[a-zA-Z]{2,}$/;
 
-	return String.extend("sap.ui.demo.cart.model.EmailType", {
+	return String.extend("com.veroglitter.model.EmailType", {
 		/**
 		 * Validates the value to be parsed. Since there is only true and false, no client side validation is required.
 		 * @param {string} [sValue] The value to be validated

@@ -1,0 +1,12 @@
+[
+  { "CategoryName": "Fine Glitter", "Category": "FG", "NumberOfProducts": 28 },
+  { "CategoryName": "Chunky Glitter", "Category": "CG", "NumberOfProducts": 15 },
+  { "CategoryName": "Holographic Glitter", "Category": "HG", "NumberOfProducts": 22 },
+  { "CategoryName": "Metallic Glitter", "Category": "MG", "NumberOfProducts": 18 },
+  { "CategoryName": "Iridescent Glitter", "Category": "IG", "NumberOfProducts": 30 },
+  { "CategoryName": "Glow-in-the-Dark Glitter", "Category": "GD", "NumberOfProducts": 12 },
+  { "CategoryName": "Matte Glitter", "Category": "MT", "NumberOfProducts": 20 },
+  { "CategoryName": "Biodegradable Glitter", "Category": "BG", "NumberOfProducts": 10 },
+  { "CategoryName": "Ultra-Fine Glitter", "Category": "UF", "NumberOfProducts": 25 },
+  { "CategoryName": "Confetti Glitter", "Category": "CF", "NumberOfProducts": 14 }
+]
