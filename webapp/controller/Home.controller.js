@@ -11,9 +11,9 @@ sap.ui.define([
 		formatter,
 
 		onInit() {
-			// const oComponent = this.getOwnerComponent();
-			// this._router = oComponent.getRouter();
-			// this._router.getRoute("categories").attachMatched(this._onRouteMatched, this);
+			const oComponent = this.getOwnerComponent();
+			this._router = oComponent.getRouter();
+			this._router.getRoute("categories").attachMatched(this._onRouteMatched, this);
 		},
 
 		_onRouteMatched() {

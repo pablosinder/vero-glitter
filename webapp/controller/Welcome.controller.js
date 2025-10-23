@@ -22,17 +22,17 @@ sap.ui.define([
 		},
 
 		onInit() {
-			// const oViewModel = new JSONModel({
-			// 	welcomeCarouselShipping: 'sap/ui/demo/cart/img/Shipping_273087.jpg',
-			// 	welcomeCarouselInviteFriend: 'sap/ui/demo/cart/img/InviteFriend_276352.jpg',
-			// 	welcomeCarouselTablet: 'sap/ui/demo/cart/img/Tablet_275777.jpg',
-			// 	welcomeCarouselCreditCard: 'sap/ui/demo/cart/img/CreditCard_277268.jpg',
-			// 	Promoted: [],
-			// 	Viewed: [],
-			// 	Favorite: [],
-			// 	Currency: "EUR"
-			// });
-			// this.getView().setModel(oViewModel, "view");
+			const oViewModel = new JSONModel({
+				welcomeCarouselShipping: 'com.veroglitter/img/Shipping_273087.jpg',
+				welcomeCarouselInviteFriend: 'com.veroglitter/img/InviteFriend_276352.jpg',
+				welcomeCarouselTablet: 'com.veroglitter/img/Tablet_275777.jpg',
+				welcomeCarouselCreditCard: 'com.veroglitter/img/CreditCard_277268.jpg',
+				Promoted: [],
+				Viewed: [],
+				Favorite: [],
+				Currency: "EUR"
+			});
+			this.getView().setModel(oViewModel, "view");
 			// this.getRouter().attachRouteMatched(this._onRouteMatched, this);
 
 			// // select random carousel page at start

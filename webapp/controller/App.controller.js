@@ -15,6 +15,8 @@ sap.ui.define([
 			this.setModel(oViewModel, "appView");
 
 			const iOriginalBusyDelay = this.getView().getBusyIndicatorDelay();
+			oViewModel.setProperty("/busy", false);
+			oViewModel.setProperty("/delay", iOriginalBusyDelay);
 			const fnSetAppNotBusy = () => {
 				oViewModel.setProperty("/busy", false);
 				oViewModel.setProperty("/delay", iOriginalBusyDelay);

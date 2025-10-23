@@ -21,15 +21,14 @@ server:
   - name: fiori-tools-appreload
     afterMiddleware: compression
     configuration:
-      port: 8080
       path: webapp
       delay: 300
-  - name: ui5-middleware-livereload
-    afterMiddleware: compression
-    configuration:
-      debug: true
-      extraExts: "xml,json,properties"
-      path: webapp
+  # - name: ui5-middleware-livereload
+  #   afterMiddleware: compression
+  #   configuration:
+  #     debug: true
+  #     extraExts: "xml,json,properties"
+  #     path: webapp
   - name: "@ui5/middleware-code-coverage"
     afterMiddleware: compression
     configuration:
