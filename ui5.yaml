@@ -7,6 +7,9 @@ framework:
   version: "1.141.2"
   libraries:
     - name: sap.m
+    - name: sap.f
+    - name: sap.ui.layout
+    - name: sap.ui.documentation
     - name: sap.ui.core
     - name: themelib_sap_horizon
 builder:
@@ -15,11 +18,21 @@ builder:
       - "test/e2e/**"
 server:
   customMiddleware:
-    - name: "@ui5/middleware-code-coverage"
-      afterMiddleware: compression
-      configuration:
-        excludePatterns:
-          - "resources/"
-          - "test/"
-    - name: ui5-middleware-livereload
-      afterMiddleware: compression
+  - name: fiori-tools-appreload
+    afterMiddleware: compression
+    configuration:
+      port: 8080
+      path: webapp
+      delay: 300
+  - name: ui5-middleware-livereload
+    afterMiddleware: compression
+    configuration:
+      debug: true
+      extraExts: "xml,json,properties"
+      path: webapp
+  - name: "@ui5/middleware-code-coverage"
+    afterMiddleware: compression
+    configuration:
+      excludePatterns:
+        - "resources/"
+        - "test/"
