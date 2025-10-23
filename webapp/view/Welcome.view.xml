@@ -1,5 +1,5 @@
 <mvc:View
-	controllerName="sap.ui.demo.cart.controller.Welcome"
+	controllerName="com.veroglitter.controller.Welcome"
 	xmlns="sap.m"
 	xmlns:l="sap.ui.layout"
 	xmlns:mvc="sap.ui.core.mvc"
@@ -62,8 +62,9 @@
 											path: 'view>/welcomeCarouselShipping',
 											formatter : '.formatter.pictureUrl'
 											}"
-										width="50%"
-										height="50%"/>
+										width="100%"
+										height="100%"
+										class="imgSize"/>
 									<Text
 										text="{i18n>welcomeCarouselShipping}"
 										class="welcomeCarouselText"/>
@@ -74,8 +75,9 @@
 											path: 'view>/welcomeCarouselInviteFriend',
 											formatter : '.formatter.pictureUrl'
 										}"
-										width="50%"
-										height="50%"/>
+										width="100%"
+										height="100%"
+										class="imgSize"/>
 									<Text
 										text="{i18n>welcomeCarouselInviteFriend}"
 										class="welcomeCarouselText"/>
@@ -86,8 +88,9 @@
 											path: 'view>/welcomeCarouselTablet',
 											formatter : '.formatter.pictureUrl'
 											}"
-										width="50%"
-										height="50%"/>
+										width="100%"
+										height="100%"
+										class="imgSize"/>
 									<Text
 										text="{i18n>welcomeCarouselTablet}"
 										class="welcomeCarouselText"/>
@@ -98,8 +101,9 @@
 											path: 'view>/welcomeCarouselCreditCard',
 											formatter : '.formatter.pictureUrl'
 											}"
-										width="50%"
-										height="50%"/>
+										width="100%"
+										height="100%"
+										class="imgSize"/>
 									<Text
 										text="{i18n>welcomeCarouselCreditCard}"
 										class="welcomeCarouselText"/>
@@ -162,8 +166,9 @@
 												formatter : '.formatter.pictureUrl'
 											}"
 											densityAware="false"
-											width="50%"
-											height="50%"
+											width="100%"
+											height="100%"
+											class="imgSize"
 											press=".onSelectProduct"
 											tooltip="{i18n>openProductDetails} {view>Product/Name}"
 											alt="{i18n>alternativeImageText} {view>Product/Name}"/>
@@ -252,6 +257,7 @@
 											}"
 											width="100%"
 											height="100%"
+											class="imgSize"
 											press=".onSelectProduct"
 											tooltip="{i18n>openProductDetails} {view>Product/Name}"
 											alt="{i18n>alternativeImageText} {view>Product/Name}"/>
@@ -340,6 +346,7 @@
 											}"
 											width="100%"
 											height="100%"
+											class="imgSize"
 											press=".onSelectProduct"
 											tooltip="{i18n>openProductDetails} {view>Product/Name}"
 											alt="{i18n>alternativeImageText} {view>Product/Name}"/>

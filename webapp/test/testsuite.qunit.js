@@ -30,7 +30,7 @@ sap.ui.define(() => {
 			loader: {
 				paths: {
 					"com/veroglitter": "../",
-					"sap/ui/demo/mock": "./../localService/mockdata"
+					"com/veroglitter/mock": "./../localService/mockdata"
 				}
 			}
 		},

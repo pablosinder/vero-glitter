@@ -140,7 +140,7 @@ sap.ui.define([
 
 	QUnit.test("Should return the url to a product picture relative to the app's root directory", (assert) => {
 		// Act
-		const sResult = formatter.pictureUrl("sap/ui/demo/mock/images/foo.jpg");
+		const sResult = formatter.pictureUrl("com/veroglitter/mock/images/foo.jpg");
 
 		// Assert
 		assert.strictEqual(sResult, "./../localService/mockdata/images/foo.jpg", "The formatter returned the correct URL");

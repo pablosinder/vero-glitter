@@ -24,3 +24,9 @@
     margin-left: 1%;
     margin-right: 1%;
 }
+
+.imgSize{
+	width: 75rem !important;
+    height: 23rem !important;
+    object-fit: none;
+}
